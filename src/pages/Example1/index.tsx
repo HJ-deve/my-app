@@ -6,7 +6,7 @@ const Container = styled.section`
 
 const Title = styled.h2`
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 `;
 
 const Content = styled.div`
