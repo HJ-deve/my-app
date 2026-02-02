@@ -31,7 +31,9 @@
     "format": "prettier --check ./src",
     "format:fix": "prettier --write ./src",
     "lint": "eslint ./src",
-    "lint:fix": "eslint --fix ./src"
+    "lint:fix": "eslint --fix ./src",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "browserslist": {
     "production": [
@@ -53,6 +55,14 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "globals": "^17.0.0",
     "prettier": "^3.8.0",
-    "typescript-eslint": "^8.53.0"
+    "typescript-eslint": "^8.53.0",
+    "storybook": "^10.2.3",
+    "@storybook/react-webpack5": "^10.2.3",
+    "@storybook/preset-create-react-app": "^10.2.3",
+    "@storybook/addon-a11y": "^10.2.3",
+    "@storybook/addon-docs": "^10.2.3",
+    "webpack": "^5.104.1",
+    "prop-types": "^15.8.1",
+    "eslint-plugin-storybook": "^10.2.3"
   }
 }
